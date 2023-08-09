@@ -1,0 +1,4 @@
+playsound
+pygobject
+pvrecorder
+pvporcupine
