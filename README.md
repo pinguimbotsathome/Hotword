@@ -53,7 +53,7 @@ $ python porcupine.py
 It uses pvrecorder to open the mic and start listening to the audio stream. When it hears the wakeword "Hey Theta", it prints ```Detected``` on the screen and plays the audio file ```din-ding.mp3```.
 
 #### Notes
-This instruction are crucial to run the script:
+This instructions are crucial to run the script:
 1. Access key => in code: ```key``` => key from picovoice account. Create an account in picovoice and copy the Access key.
 2. ```keyword_p``` => path to ppn file. Go to picovoice console and train the wakeword "Hey Theta". Choose Linux as device and download the file. Put the file inside the Hotword directory.
 3. ```sensitivities``` => It is a number between 0 and 1. Deafult is 0.55.A higher sensitivity results in fewer misses at the cost of increasing the false alarm rate.
